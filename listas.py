@@ -11,6 +11,8 @@ listaLetra = ['M', 'e', 's', 's', 'i']
 listaVazia = []
 listaRange = list(range(11))
 listaNome = list("Messi")
+listaVariada = [1, 2, 3, 'Messi', [100, 200, 300], 1.0, 1234567890]
+
 
 # Podemos checar se determinado valor está contido na lista
 # num = 10
@@ -113,20 +115,36 @@ listaNome = list("Messi")
 # print
 
 # Convertendo lista em string.
-print(listaNome)
-listaNome = ' '.join(listaNome)
-print(listaNome)
+# print(listaNome)
+# listaNome = ' '.join(listaNome) #  Coloca espaço entre as strings
+# # print(listaNome)
 
+# nome = '$'.join(listaNome) #  Coloca o cifrão entre as strings
+# print(nome)
 
+# print(listaVariada)
+#
 
+# Iterando sobre a lista.
+# soma = 0
+# for elemento in listaNum:
+#     print(elemento)
+#     soma = soma + elemento
+# print(soma)
 
+# Utilizando while
 
+carrinho = []
+produto = ''
 
+while produto != 'sair':
+    print("Adicione um produto na lista ou digite 'sair' para sair: ")
+    produto = input()
+    if produto != 'sair':
+        carrinho.append(produto)
+print("Você saiu!")
 
-
-
-
-
-
+for produto in carrinho:
+    print(produto)
 
 
