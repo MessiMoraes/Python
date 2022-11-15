@@ -1,5 +1,5 @@
 """
-Modulo Collection - Counter (Contador)
+Módulo Collection - Counter (Contador)
 Collections -> High-Performance Container Date types
 
 Counter -> Recebe um iteravel como parâmetro e cria um objeto do tipo Collections Counter

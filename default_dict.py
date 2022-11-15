@@ -1,5 +1,5 @@
 """
-Modulo Collections - Default Dict
+Módulo Collections - Default Dict
 
 """
 # Recapitulando Dicionários

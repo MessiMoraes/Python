@@ -1,5 +1,5 @@
 """
-Modulo Collections: Ordered Dict
+Módulo Collections: Ordered Dict
 """
 
 # Em dicionário, a ordem de insersão dos elementos não são garantida.
